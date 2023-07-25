@@ -1,0 +1,24 @@
+<html>
+    <head>
+      <title></title>
+    </head>
+    <body>
+      <h2>javascript objects</h2>
+      <p id="techzenure">hello</p>
+    <script>
+        //create an object
+        var person={
+            firstname : "Sai",
+            lastname  : "kiran",
+            age:26,
+            address:"hyderabad",
+            employeedata : function(){
+                return this.firstname+"Age:"+this.age+"Address :"+this.address
+            }
+        };
+            //display data from the object
+    document.getElementById("techzenure").innerHTML=person.employeedata();
+    </script> 
+    </body>
+
+ </html>
